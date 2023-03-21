@@ -1,8 +1,3 @@
-<script>
-
-
-</script>
-
 <!-- ---  -->
 
 <form on:submit|preventDefault>

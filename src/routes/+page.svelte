@@ -3,8 +3,16 @@
     import Summary from "./Modul-Summary.svelte"
 
     let submit = false;
+    let rating;
 
     function submitHandler(e){
+        const formData = new FormData(e.target);
+        const data = {};
+        for (let field of formData) {
+            const [key, value] = field;
+            data[key] = value;
+        }
+        rating = data.rate;
         submit = true;
     }
 
@@ -14,7 +22,7 @@
 {#if !submit}
     <Rating on:submit={submitHandler}/>
 {:else}
-    <Summary/>
+    <Summary rating={rating}/>
 {/if}
 
 
