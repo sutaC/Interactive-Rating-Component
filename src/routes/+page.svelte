@@ -28,9 +28,7 @@
 </main>
 
 
-
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<footer on:click={()=>submit=false}>
+<footer>
 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
 Coded by <a href="#sutaC">sutaC</a>.
 </footer>
