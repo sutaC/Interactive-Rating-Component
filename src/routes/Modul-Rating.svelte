@@ -12,11 +12,11 @@
     <h1>How did we do?</h1>
     <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
-    <input type="radio" name="rate" id="rate1" value="1">
-    <input type="radio" name="rate" id="rate2" value="2">
-    <input type="radio" name="rate" id="rate3" value="3">
-    <input type="radio" name="rate" id="rate4" value="4">
-    <input type="radio" name="rate" id="rate5" value="5">
+    <input type="radio" name="rate" id="rate1" value="1" required>
+    <input type="radio" name="rate" id="rate2" value="2" required>
+    <input type="radio" name="rate" id="rate3" value="3" required>
+    <input type="radio" name="rate" id="rate4" value="4" required> 
+    <input type="radio" name="rate" id="rate5" value="5" required>
 
     <div class="rating" >
         <!-- svelte-ignore a11y-click-events-have-key-events -->
